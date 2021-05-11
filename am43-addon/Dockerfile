@@ -3,6 +3,8 @@ FROM $BUILD_FROM
 
 ENV LANG C.UTF-8
 
+ADD package.json /
+
 RUN apk add --no-cache nodejs-npm jq && \
 npm install -g https://github.com/delphir-com/am43-ctrl/
 
