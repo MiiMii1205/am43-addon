@@ -5,8 +5,9 @@ ENV LANG C.UTF-8
 
 ADD package.json /
 
-RUN apk add --no-cache nodejs-npm jq && \
-npm install -g https://github.com/delphir-com/am43-ctrl/
+RUN apk add --no-cache nodejs-npm jq
+
+RUN npm install -g 'https://github.com/delphir-com/am43-ctrl/'
 
 # Copy data for add-on
 COPY run.sh /
