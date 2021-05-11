@@ -3,6 +3,7 @@
     "version": "1",
     "slug": "ambld",
     "description": "Controls AM43 blind engine",
+    "url": "https://github.com/MiiMii1205/am43-addon/tree/master/am43-addon",
     "startup": "before",
     "boot": "auto",
     "arch": [
