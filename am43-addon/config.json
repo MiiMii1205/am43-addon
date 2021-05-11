@@ -17,9 +17,13 @@
       "share:rw"
     ],
     "options": {
-      "macAddress": ""
+      "macAddress": "",
+      "usr": "",
+      "pass": ""
     },
     "schema": {
-      "macAddress": "str"
+      "macAddress": "str",
+      "usr": "str",
+      "pass": "str"
     }
   }
