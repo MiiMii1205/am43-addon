@@ -3,7 +3,7 @@ FROM $BUILD_FROM
 
 ENV LANG C.UTF-8
 
-RUN apk add --no-cache nodejs-npm jq
+RUN apk add --no-cache nodejs-npm jq git
 RUN npm install -g 'https://github.com/delphir-com/am43-ctrl/'
 
 # Copy data for add-on
