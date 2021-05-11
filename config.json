@@ -1,0 +1,17 @@
+{
+    "name": "AM43 Blind Engine",
+    "version": "1",
+    "slug": "sync_cam",
+    "description": "Controls AM43 blind engine",
+    "startup": "before",
+    "boot": "auto",
+    "map": [
+      "share:rw"
+    ],
+    "options": {
+      "macAddress": ""
+    },
+    "schema": {
+      "macAddress": "str"
+    }
+  }
